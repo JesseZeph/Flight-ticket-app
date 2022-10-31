@@ -15,8 +15,10 @@ class Styles {
       TextStyle(fontSize: 26, color: textColor, fontWeight: FontWeight.bold);
   static TextStyle headLineStyle2 =
       TextStyle(fontSize: 21, color: textColor, fontWeight: FontWeight.bold);
-  static TextStyle headLineStyle3 = TextStyle(
-      fontSize: 17, color: Colors.grey.shade500, fontWeight: FontWeight.w500);
+  static TextStyle headLineStyle3 =
+      const TextStyle(fontSize: 17, fontWeight: FontWeight.w500);
   static TextStyle headLineStyle4 = TextStyle(
-      fontSize: 14, color: Colors.grey.shade500, fontWeight: FontWeight.w500);
+      fontSize: 14,
+      color: Color.fromARGB(255, 96, 95, 95),
+      fontWeight: FontWeight.w500);
 }
