@@ -2,6 +2,20 @@
 
 A new Flutter project.
 
+The widgets built:
+
+1. reusable style component
+
+2. reusable color pallet
+
+3. reusable column widget
+
+4. reusable layout builder widget
+
+6. reusable row widget
+
+7. reusable ticket widget
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
