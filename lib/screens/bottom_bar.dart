@@ -2,6 +2,7 @@ import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ticketapp/screens/home_screen.dart';
+import 'package:ticketapp/screens/profile_screen.dart';
 import 'package:ticketapp/screens/search_screen.dart';
 import 'package:ticketapp/screens/ticket_screen.dart';
 
@@ -13,12 +14,12 @@ class BottomBar extends StatefulWidget {
 }
 
 class _BottomBarState extends State<BottomBar> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 3;
   static final List<Widget> _widgetOptions = <Widget>[
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text('Profile'),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
